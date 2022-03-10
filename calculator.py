@@ -46,11 +46,11 @@ elif(op2==operators[6]):
    print(Fore.GREEN,"RESULT:",result)
    
 elif(op2==operators[7]):
-   result=math.tan(deg)
+   result=math.sin(deg)/math.cos(deg)
    print(Fore.GREEN,"RESULT:",result)
 
 elif(op2==operators[8]):
-   result=math.cot(deg)
+   result=math.cos(deg)/math.sin(deg)
    print(Fore.GREEN,"RESULT:",result)
    
 
